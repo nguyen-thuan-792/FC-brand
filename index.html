@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Starbucks Website Landing Page</title>
+
+
+    </head>
+
+    <body>
+    
+        <section>
+            <div class="circle"></div>
+            
+            <header>
+                <a href="#"><img src="classA1.jpg" class="logo"></a>
+                <div class="toggle" onclick="toggleMenu();"></div>
+                <ul class="navigation">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">What's new</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </header>
+            <div class="content">
+                <div class="textBox">
+                    <h2>It's not just Beauty<br>It's<span> FC</span></h2>
+                    <p>They are talented girls:<br> MINH TAM <br> ANH THY <br> THI THUY <br> BAO NGOC <br></p>
+                     <a href="#">More Information</a>
+                </div>
+                <div class="imgBox">
+                    <img src="fc.jpg" class="starbucks">
+                </div>
+            </div>
+            <ul class="thumb">
+                <li><img src="tam.jpg" onclick="imgSlider('tam.jpg'); changeCircleColor('#017143')"></li>
+                <li><img src="thy.jpg" onclick="imgSlider('thy.jpg'); changeCircleColor('#eb7495')"></li>
+                <li><img src="thuy.jpg" onclick="imgSlider('thuy.jpg'); changeCircleColor('#d752b1')"></li>
+                <li><img src="ngoc.jpg" onclick="imgSlider('ngoc.jpg'); changeCircleColor('#f00')"></li>
+            </ul>
+            <ul class="sci">
+                <li><a href="#"><img src="facebook.png"></a></li>
+                <li><a href="#"><img src="twitter.png"></a></li>
+                <li><a href="#"><img src="instagram.png"></a></li>
+            </ul>
+        </section>
+    
+         <script src="main.js"></script>
+    </body>
+   
+</html>
